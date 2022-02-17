@@ -1,5 +1,5 @@
-import React from 'react';
-import {Route, Routes} from "react-router-dom";
+import React, {useEffect, useRef} from 'react';
+import {Route, Routes, useLocation} from "react-router-dom";
 import './App.css';
 import "halfmoon";
 import "halfmoon/css/halfmoon-variables.min.css";
@@ -15,11 +15,20 @@ import Shops from "./components/Info/Shops";
 import Transportation from "./components/Info/Transportation";
 
 function App() {
+    const {pathname} = useLocation();
+    const container = useRef<HTMLDivElement>(null);
+
+    useEffect(()=>{
+        if(container) {
+            container?.current?.scrollTo(0,0);
+        }
+    }, [pathname])
+
     return (
         <div>
             <div className="page-wrapper with-navbar">
                 <Navbar/>
-                <div className="content-wrapper d-flex flex-column">
+                <div ref={container} className="content-wrapper d-flex flex-column">
                     <Routes>
                         <Route path="/" element={<Home/>}/>
                         <Route path="/about" element={<About/>}/>
