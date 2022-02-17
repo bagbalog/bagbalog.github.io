@@ -1,26 +1,32 @@
 {
   "files": {
     "main.css": "/static/css/main.9c625a64.css",
-    "main.js": "/static/js/main.db83c227.js",
+    "main.js": "/static/js/main.680d7dfa.js",
     "static/js/787.b176f193.chunk.js": "/static/js/787.b176f193.chunk.js",
     "static/media/hero2.png": "/static/media/hero2.ffb9df85615e66463170.png",
     "static/media/forest1.jpg": "/static/media/forest1.29ad9701864fb6cda689.jpg",
     "static/media/village1.jpg": "/static/media/village1.769a1b7a0989e858a22d.jpg",
+    "static/media/restaurant1.jpg": "/static/media/restaurant1.973e0a6e2f15d6a0ece8.jpg",
     "static/media/dining.jpg": "/static/media/dining.74e8fab3b93310802aae.jpg",
     "static/media/tour.jpg": "/static/media/tour.03cbeabc661f3a83870a.jpg",
     "static/media/island1.jpg": "/static/media/island1.59f97a243cf91638baae.jpg",
+    "static/media/restaurant2.jpg": "/static/media/restaurant2.4970bdabe9d983fd4961.jpg",
     "static/media/taxi.jpg": "/static/media/taxi.5cf111c5f705de3def42.jpg",
+    "static/media/islandresort.jpg": "/static/media/islandresort.99e64278fbf1dada5e14.jpg",
     "static/media/beach1.jpg": "/static/media/beach1.72ecc76a60a35330c91b.jpg",
+    "static/media/restaurant.jpg": "/static/media/restaurant.71cd00646bf19176fe0b.jpg",
+    "static/media/beachcabins.jpg": "/static/media/beachcabins.7e4ebfccae4eae64c373.jpg",
     "static/media/village2.jpg": "/static/media/village2.4e395082581c3d114ebb.jpg",
+    "static/media/tent.jpg": "/static/media/tent.1fb702fcc32227ef093a.jpg",
     "static/media/cruise1.jpg": "/static/media/cruise1.76c462b2bedd101773dc.jpg",
     "static/media/airport.jpg": "/static/media/airport.69b1b0a1e77db0a22273.jpg",
     "index.html": "/index.html",
     "main.9c625a64.css.map": "/static/css/main.9c625a64.css.map",
-    "main.db83c227.js.map": "/static/js/main.db83c227.js.map",
+    "main.680d7dfa.js.map": "/static/js/main.680d7dfa.js.map",
     "787.b176f193.chunk.js.map": "/static/js/787.b176f193.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c625a64.css",
-    "static/js/main.db83c227.js"
+    "static/js/main.680d7dfa.js"
   ]
 }
